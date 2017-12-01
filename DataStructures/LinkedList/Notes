@@ -1,3 +1,5 @@
 Notes
 LinkedList is queue. FIFO, the data is stored in contiguous memory blocks
 there is no separate head Node in  LinkedList. It starts with normal Node.
+
+Edited the file from gitHub
