@@ -2,4 +2,17 @@ Notes
 LinkedList is queue. FIFO, the data is stored in contiguous memory blocks
 there is no separate head Node in  LinkedList. It starts with normal Node.
 
-Edited the file from gitHub
+In order to traverse the LinkedList, the user has to start from the head node,
+hence traversal is O(n) in LinkedList.
+Insertion is O(1)
+Deletion has two steps, first is List traversal and then the node is deleted,
+Hence deletion in the LinkedList is O(n).
+
+
+Doubly LinkedList is used to inplement Least Recently Used (LRU) cache.
+In this caching mechanism, the data which is recently used is added
+at the head of the LinkedList. Hence, in the LinkedList, the data which is at the end is
+Least Recently Used.
+Initially a threshold is determined , once the LinkedList
+reaches the threshold, end of the list is removed. In this way, the List has only that data which is Used
+more often thus reducing the querying time .
